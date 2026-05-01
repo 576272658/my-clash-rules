@@ -1,0 +1,12 @@
+# 自定义直连规则
+# 用于 sub converter / Clash
+
+# ===== 自定义域名 =====
+DOMAIN-SUFFIX,xn--yet421mefa.top
+DOMAIN-SUFFIX,ceair.com
+DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,qishui.com
+
+# ===== 自定义 IP =====
+IP-CIDR,43.163.101.61/32,no-resolve
+IP-CIDR,100.0.0.0/8,no-resolve

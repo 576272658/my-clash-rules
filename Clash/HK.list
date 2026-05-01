@@ -1,0 +1,7 @@
+# 自定义香港节点规则
+# 用于 sub converter / Clash
+
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,mobile.eum-appdynamics.com
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,lpsnmedia.net
