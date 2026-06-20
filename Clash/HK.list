@@ -1,9 +1,6 @@
 # 自定义香港节点规则
 # 用于 sub converter / Clash
 
-# 微信图片直连 IP（180.97.93.20 被 ISP 封端口，走代理绕过）
-IP-CIDR,180.97.93.20/32,no-resolve
-
 DOMAIN-SUFFIX,hsbc.com.hk
 DOMAIN-SUFFIX,mobile.eum-appdynamics.com
 DOMAIN-SUFFIX,liveperson.net
