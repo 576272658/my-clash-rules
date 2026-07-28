@@ -6,6 +6,10 @@ DOMAIN-SUFFIX,mobile.eum-appdynamics.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,lpsnmedia.net
 
+# notamify Cloudflare challenge
+DOMAIN-SUFFIX,notamify.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+
 # Apple 服务
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,akadns.net
