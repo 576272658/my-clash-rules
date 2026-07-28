@@ -6,9 +6,8 @@ DOMAIN-SUFFIX,mobile.eum-appdynamics.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,lpsnmedia.net
 
-# notamify Cloudflare challenge
+# notamify - 仅站点走香港；不要全局劫持 challenges.cloudflare.com
 DOMAIN-SUFFIX,notamify.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
 
 # Apple 服务
 DOMAIN-SUFFIX,push.apple.com
