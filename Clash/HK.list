@@ -9,6 +9,10 @@ DOMAIN-SUFFIX,lpsnmedia.net
 # notamify - 仅站点走香港；不要全局劫持 challenges.cloudflare.com
 DOMAIN-SUFFIX,notamify.com
 
+# cf.api.fan
+DOMAIN-SUFFIX,api.fan
+DOMAIN,cf.api.fan
+
 # Apple 服务
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,akadns.net
