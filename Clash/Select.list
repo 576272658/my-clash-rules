@@ -1,0 +1,7 @@
+# 自定义节点选择规则
+# 用于 sub converter / Clash
+# 对应 proxy group: 🚀 节点选择
+
+# cf.api.fan
+DOMAIN-SUFFIX,api.fan
+DOMAIN,cf.api.fan
