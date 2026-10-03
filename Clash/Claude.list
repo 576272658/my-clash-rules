@@ -1,0 +1,19 @@
+# Claude / Anthropic 专用规则
+# 对应 proxy group: 🤖 Claude
+# 来源：2026-09-27 Clash Verge 截图，只保留 Claude 本体域名和 Anthropic 网段
+# 未收录 datadog / sentry / sift / intercom / statsig / fathom（会误伤其它站点）
+
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic-com.ghost.io
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
+IP-ASN,399358,no-resolve
