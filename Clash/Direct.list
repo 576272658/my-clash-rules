@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,ceair.com
 DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,qishui.com
 DOMAIN-SUFFIX,aviationweather.gov
+DOMAIN-SUFFIX,leigod.com
 
 # ===== 自定义 IP =====
 IP-CIDR,43.163.101.61/32,no-resolve
