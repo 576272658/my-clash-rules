@@ -1,7 +1,8 @@
 # Claude / Anthropic 专用规则
 # 对应 proxy group: 🤖 Claude
 # 来源：2026-09-27 Clash Verge 截图，只保留 Claude 本体域名和 Anthropic 网段
-# 未收录 datadog / sentry / sift / intercom / statsig / fathom（会误伤其它站点）
+# 精确域名：Datadog RUM 接收端、Fathom 统计（SUFFIX 抓不到）
+# 不收录 sentry / sift / intercom / statsig 整站（会误伤其它站点）
 # 不用 IP-ASN：OpenClash 启动会下载 ASN.mmdb，失败则内核直接退出
 
 DOMAIN-SUFFIX,anthropic.com
@@ -15,5 +16,7 @@ DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
 DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,cdn.usefathom.com
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
